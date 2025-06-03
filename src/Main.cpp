@@ -102,7 +102,7 @@ diffselect:
 	}
 
 	char replay;
-	std::cout << "You lose.\nThe correct number was " << randomNum << std::endl;
+	std::cout << "You lose.\nThe correct number was " << randomNum << std::endl << std::endl;
 Win:
 
 	std::cout << "Do you want to play again?(Y/N)\n";
@@ -113,12 +113,12 @@ Win:
 	}
 	else if (replay == 'N')
 	{
-		std::cout << "Adios!" << std::endl;
+		std::cout << "Bye!" << std::endl;
 		std::cin.get();
 	}
 	else
 	{
-		std::cout << "I guess not? Adios!" << std::endl;
+		std::cout << "I guess not? Bye!" << std::endl;
 		std::cin.get();
 	}
 	std::cin.get();
